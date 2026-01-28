@@ -48,10 +48,15 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group relative px-8 py-4 bg-stone-950 text-stone-50 font-bold text-lg overflow-hidden transition-all hover:scale-105 active:scale-95">
+              <a
+                href="https://wa.me/34649355701?text=Hola,%20quiero%20solicitar%20una%20demo%20gratis"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative px-8 py-4 bg-stone-950 text-stone-50 font-bold text-lg overflow-hidden transition-all hover:scale-105 active:scale-95 text-center"
+              >
                 <span className="relative z-10">SOLICITAR DEMO</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-rose-600 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300" />
-              </button>
+              </a>
               <button className="px-8 py-4 border-2 border-stone-950 text-stone-950 font-bold text-lg hover:bg-stone-950 hover:text-stone-50 transition-all">
                 VER EJEMPLOS
               </button>
@@ -253,15 +258,36 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <button className="group relative px-12 py-5 bg-amber-600 text-stone-950 font-black text-xl overflow-hidden transition-all hover:scale-105 active:scale-95">
+            <a
+              href="https://wa.me/34649355701?text=Hola,%20quiero%20empezar%20mi%20proyecto"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative px-12 py-5 bg-amber-600 text-stone-950 font-black text-xl overflow-hidden transition-all hover:scale-105 active:scale-95 text-center"
+            >
               <span className="relative z-10">EMPEZAR AHORA</span>
               <div className="absolute inset-0 bg-stone-50 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300" />
-            </button>
+            </a>
           </div>
 
           <div className="pt-8 text-sm text-stone-400">
-            <p>📧 contacto@tuempresa.com</p>
+            <p>📧 arturo@legasint.com</p>
           </div>
+        </div>
+      </section>
+
+      {/* Meta Section */}
+      <section className="py-12 px-6 md:px-12 lg:px-24 bg-stone-900 text-stone-300 border-t border-stone-800">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm leading-relaxed">
+            💡{" "}
+            <span className="text-stone-50 font-bold">
+              Esta web es un ejemplo real
+            </span>{" "}
+            de cómo trabajamos. Diseño atrevido, código limpio, mensaje claro.
+            <br />
+            Así es como creamos tu landing page: directa, funcional y
+            memorable.
+          </p>
         </div>
       </section>
 
