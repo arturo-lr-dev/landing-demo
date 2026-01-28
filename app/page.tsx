@@ -57,9 +57,9 @@ export default function Home() {
                 <span className="relative z-10">SOLICITAR DEMO</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-rose-600 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300" />
               </a>
-              <button className="px-8 py-4 border-2 border-stone-950 text-stone-950 font-bold text-lg hover:bg-stone-950 hover:text-stone-50 transition-all">
+              {/* <button className="px-8 py-4 border-2 border-stone-950 text-stone-950 font-bold text-lg hover:bg-stone-950 hover:text-stone-50 transition-all">
                 VER EJEMPLOS
-              </button>
+              </button> */}
             </div>
 
             <div className="flex gap-8 pt-4">
